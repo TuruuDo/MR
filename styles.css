@@ -1,0 +1,86 @@
+body{
+background-color: hsl(0, 0%, 98%);
+font-family: 'Poppins', sans-serif;
+font-weight: 200;
+Font-size: 15px;
+color: hsl(234, 12%, 34%);
+}
+h1{
+  width: 400px;
+  text-align: center;
+  margin: 60px auto 20px;
+  font-weight: 600;
+}
+span{
+  font-weight: 100;
+  font-size: 0.96em;
+}
+.intro{
+  width: 530px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+div{
+  width: 350px;
+  height: 250px;
+  background-color: white;
+  margin: 0;
+  border-radius: 7px;
+  text-align: left;
+  box-shadow: 5px  10px 10px rgb(230,230,230),-7px  10px 5px rgb(240,240,240);
+}
+.big{
+  height: 600px;
+  width: 1200px;
+  background-color: hsl(0, 0%, 98%) ;
+  position: relative;
+  margin: 0 auto;
+  box-shadow: none;
+}
+.cyan{
+  position: absolute;
+  left: 45px;
+  top: 175px;
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+.red{
+  position: absolute;
+  left: 425px;
+  top: 35px;
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+.orange{
+  position: absolute;
+  left: 425px;
+  top: 315px;
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+.blue{
+  position: absolute;
+  left: 805px;
+  bottom: 175px;
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+.image{
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+.padding{
+  width: 300px;
+  height: 100px;
+  margin: auto;
+  box-shadow: none;
+}
+.creator{
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  margin: 30px 600px;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: orange;
+}
